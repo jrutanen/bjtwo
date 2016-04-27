@@ -31,7 +31,9 @@ CardDeck::CardDeck(std::vector<CardDeck> deck_list)
 {
 	for (unsigned int i = 0; i < deck_list.size(); ++i)
 	{
-	//	cards.insert(cards.end(), deck_list.at(i).begin, deck_list.at(i).end);
+		//cards.insert(cards.end(), deck_list.at(i).begin, deck_list.at(i).end);
+		std::vector<Card> deck_cards = deck_list.at(i).GetCards();
+		cards.insert(cards.end(), deck_cards.begin(), deck_cards.end());
 	}
 }
 
