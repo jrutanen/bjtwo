@@ -35,6 +35,27 @@ std::string Player::ShowHand()
 	return cards;
 }
 
+PlayerState Player::State()
+{
+	return state;
+}
+
+void Player::Reset()
+{
+	player_hand.clear();
+	hand_value = 0;
+}
+
+std::string Player::GetName()
+{
+	return name;
+}
+
+void Player::SetName(std::string newName)
+{
+	name = newName;
+}
+
 int Player::HandValue()
 {
 	return hand_value;

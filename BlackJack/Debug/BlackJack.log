@@ -1,3 +1,4 @@
-﻿  CardDeck.cpp
-c:\cygwin\home\janirutanen\dev\bjtwo\blackjack\carddeck.cpp(58): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  BlackJack.vcxproj -> C:\cygwin\home\janirutanen\dev\bjtwo\BlackJack\Debug\BlackJack.exe
+﻿  BlackJack.cpp
+c:\cygwin\home\ejanrut\dojo\bjtwo\bjtwo\blackjack\blackjack.cpp(101): warning C4800: 'Player *': forcing value to bool 'true' or 'false' (performance warning)
+c:\cygwin\home\ejanrut\dojo\bjtwo\bjtwo\blackjack\blackjack.cpp(102): warning C4800: 'Player *': forcing value to bool 'true' or 'false' (performance warning)
+  BlackJack.vcxproj -> C:\cygwin\home\ejanrut\dojo\bjtwo\bjtwo\BlackJack\Debug\BlackJack.exe
